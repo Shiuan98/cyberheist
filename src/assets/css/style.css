@@ -1,0 +1,862 @@
+/************** General Use ***************/ 
+
+body{overflow-x: hidden;}
+.feedback-text{color:white;}
+.testing{position: relative;background-color: #000000;}
+.test-head{position: relative;background-color: #000000;}
+
+/************** Header ***************/ 
+.logo{width: 25%;margin-top: 20px;margin-left: 20px;}
+.navbar{position: absolute;z-index: 1;}
+.connect-wallet{position: absolute;right: 15.3rem;top: 3rem;color: #ffffff;background-color: #bd1e2d;font-size: 30px;padding: 5px 0px; width: 250px; border:none;font-family: 'Impact', sans-serif;letter-spacing: 1px;z-index: 1;}
+.sound-btn{position: fixed;z-index: 20;cursor: pointer;text-align: center;right: 1.2rem;bottom: 2rem;}
+.sound-btn img{width: 50px;height: 50px;}
+.sound-btn button{background: transparent;border:none;}
+.sound-btn button:focus{outline: none;}
+.sound-btn i{color: #ffffff;font-size: 1.5rem;margin:0;position: absolute;top: 50%;transform: translateY(-50%);left: 25%;}
+.icon-part{display: inline-flex;position: absolute;top: 3rem;right: 2rem;}
+.opensea-icon{z-index: 11;height: 55px;margin-right: 1rem;}
+.discord-icon{z-index: 11;height: 55px;margin-right: 1rem;}
+.twitter-icon{z-index: 11;height: 55px;}
+.wallet-box{width: 250px;white-space: nowrap;}
+/************** HeroBanner ***************/ 
+.hero-banner{background-position: center;z-index: 1;overflow: hidden;}
+/*.hero-banner video{width : 100vw;height: 100vh;position: fixed;top: 0;left: 0;} */
+.hero-banner .video-react .video-react-video{position: fixed;object-fit: cover;}
+.hero-banner .bullet2{position: absolute;width:5%;right: 15rem;bottom: 5rem;}
+/*.hero-banner .video-react .video-react-big-play-button{background-image: url(../img/bullet-hole-1.png);width: 150px;background-size: cover;height: 150px;}*/
+/*.hero-banner .video-react .video-react-big-play-button{background-color: #bd1e2d;font-size: 5em;border:none;}*/
+.hero-banner .video-react .video-react-big-play-button{background-image: url(../img/4.png);background-size: cover;background-repeat: no-repeat;background-position: center;}
+.video-react .video-react-big-play-button{border:none;background: unset;background-color: unset;}
+.video-react-icon-play-arrow:before, .video-react .video-react-bezel .video-react-bezel-icon-play:before, .video-react .video-react-play-control:before, .video-react .video-react-big-play-button:before{content: unset;}
+.video-react:hover .video-react-big-play-button, .video-react .video-react-big-play-button:focus{background-color: unset;background-image: url(../img/4.png);}
+.video-react .video-react-big-play-button{height: 4em;width: 4em;}
+/************** BeHeist ***************/ 
+.be-heist{background-color: #bd1e2d; font-family: 'Impact', sans-serif;letter-spacing: 1px;position: relative;overflow: hidden;background-image: url(../img/red-bank.jpg);background-repeat: no-repeat;background-size: cover;background-position: center;padding: 100px 0px 150px 0px;}
+.be-heist h2{font-family: 'Impact', sans-serif;letter-spacing: 1px;font-size: 7rem;color: #000000;margin-top: -1rem;margin-bottom: 2rem;-webkit-text-fill-color:transparent;color: #ffffff;-webkit-text-stroke-width:3px;}
+.be-heist .number-big{color: #ffffff;font-size: 14rem;display: inline-flex;line-height: 1;}
+.be-heist .small-matic{font-size: 10rem;}
+.bullet1{position: absolute;width: 5%;margin-left: 25rem;margin-top: -5rem;z-index: 2;}
+.be-heist .bullet2{position: absolute;width:5%;margin-left: 32rem;margin-top: -10rem;z-index: 2;}
+.be-heist .container p{font-size: 1.5rem;font-family: 'Helvetica Regular';font-weight: normal;color: #ffffff;}
+.be-heist .container{background-color: #5a0303;padding: 50px 120px;opacity: .9;}
+
+/************** Heist Gang ***************/ 
+.heist-gang{background-image: url(../img/gold-BG.jpg);background-repeat: no-repeat;background-size: cover;min-height: 55vh;background-position: center;z-index: 1;overflow: hidden;position: relative;background-attachment: fixed;}
+.bullet11{position: absolute;width:5%;margin-left: 7rem;margin-top: -6rem;z-index: 1;}
+
+/************** Heist Mint ***************/ 
+.heist-mint{background-color: #450000;position: relative;overflow: hidden;padding: 100px 0px 200px 0px;}
+.heist-mint .col-md-5 img{max-width: 65%;position: relative;}
+.heist-mint .container-fluid{padding-left: 150px;padding-right: 150px;}
+.heist-mint .col-md-7 h2{color: #ffffff;font-family: 'Impact', sans-serif;letter-spacing: 1px;font-size: 3.5rem;}
+.heist-mint .col-md-7{position: relative;top: 5rem;left: 5rem;}
+.heist-mint .col-md-7 p{color: #ffffff;font-size: 1.5rem;}
+.heist-mint .col-md-7 h3{color: #ffffff;font-family: 'Impact', sans-serif;font-size: 3rem;letter-spacing: 1px;}
+.heist-mint .col-md-7 h3 span{color: #bd1e2d;}
+.heist-mint .col-md-7 h3 img{width: 30px;}
+.heist-mint .connect-metamask{color: #000000;background-color: #bd1e2d;font-size: 3.5rem;padding: 5px 35px;border:none;font-family: 'Impact', sans-serif;letter-spacing: 1px;margin-top: 10px;}
+.heist-mint .mint-quantity{color: #000000;background-color: #ffffff;font-size: 3.5rem;padding: 5px 35px;border:none;font-family: 'Impact', sans-serif;letter-spacing: 1px;width: 390px;}
+.bullet3{position: absolute;width:5%;margin-top: -6rem;z-index: 1;right: 35rem;}
+.referral-icon{width: 50px}
+.referral-part{margin-top: 2rem;margin-bottom: 2rem;}
+.referral{color: #000000;background-color: #ffffff;padding: 15px 10px;border:none;width: 500px;margin-left: 1rem;font-style: italic;}
+.img-out {position: relative;max-width: 60%;margin: 5em auto 0;display: flex;justify-content: center;min-height: 27em;border: 1px solid rgba(0, 0, 0, .1);}
+/*Actual Style*/
+.img-stack {position: absolute;transform-origin: center 180%;transition: transform .5s ease-out;}
+.img-stack__image {max-width: 85%;}
+/*.img-stack:first-child {transform: rotate(1deg);}
+.img-stack:last-child {transform: rotate(-1deg);}*/
+.img-out .img-stack:first-child {transform: rotate(19deg);}
+.img-out .img-stack:last-child {transform: rotate(-19deg);}
+.img-stack:hover {z-index: 2;}
+.heist-first{z-index: 1;}
+.small-human{width: 20px; margin-top: 1rem;margin-left:3px;}
+.heist-mint .connect-metamask:hover{color: #ffffff;}
+.heist-mint .view-opensea{max-width: 420px; text-align:left; color: #ffffff;background-color: #bd1e2d;font-size: 3.5rem;padding: 5px 25px;border:none;font-family: 'Impact', sans-serif;letter-spacing: 1px;margin-top: 10px;margin-right: 20px;}
+.heist-mint .mint-more{max-width: 420px; text-align:left; color: #ffffff;background-color: #bd1e2d;font-size: 3.5rem;padding: 5px 25px;border:none;font-family: 'Impact', sans-serif;letter-spacing: 1px;margin-top: 10px;}
+.heist-mint .view-opensea:hover ,.heist-mint .mint-more:hover{color: #000000;} 
+.heist-mint .success-section br{display: none;}
+.heist-mint .success-section img{width: 100px; margin-right: 1rem;}
+.network-btn{color: #000000;background-color: #bd1e2d;font-size: 2rem;padding: 5px 35px;border:none;font-family: 'Impact', sans-serif;letter-spacing: 1px;margin-top: 10px;}
+
+/************** Season One ***************/ 
+.season-one{background-color: #000000;overflow: hidden;padding: 150px 0px;position: relative;}
+.season-one .container-fluid{padding-left: 150px;padding-right: 150px;}
+.season-one h2{color: #ffffff;font-family: 'Impact', sans-serif;letter-spacing: 1px;font-size: 3.5rem;margin-bottom: 2rem;}
+.season-one .season-stage{width: calc(25% - 30px); margin:15px;}
+.season-one .season-grid{display: flex;flex-wrap: wrap;margin: -10px;position: relative; z-index: 2;}
+.season-one .stage-1 h3{font-family: 'Impact', sans-serif;letter-spacing: 1px;font-size: 2.5rem;color: #339bd6;margin-top: -1rem;}
+.season-stage img{max-width: 90%;}
+.season-one .stage-1 h2{color: #339bd6;font-size: 5.5rem;}
+.season-one .stage-1 h4{font-family: 'Impact', sans-serif;letter-spacing: 1px;font-size: 2rem;color: #339bd6;margin-top: -2.8rem;}
+.season-one p{font-size: 1.3rem;margin-bottom: 0;}
+.season-one span{margin-right: .5rem;font-weight: bold;}
+.season-one .stage-2 h3{font-family: 'Impact', sans-serif;letter-spacing: 1px;font-size: 2.5rem;color: #f27137;margin-top: -1rem;}
+.season-one .stage-2 h2{color: #f27137;font-size: 5.5rem;}
+.season-one .stage-2 h4{font-family: 'Impact', sans-serif;letter-spacing: 1px;font-size: 2rem;color: #f27137;margin-top: -2.8rem;}
+.season-one .stage-3 h3{font-family: 'Impact', sans-serif;letter-spacing: 1px;font-size: 2.5rem;color: #00aea0;margin-top: -1rem;}
+.season-one .stage-3 h2{color: #00aea0;font-size: 5.5rem;}
+.season-one .stage-3 h4{font-family: 'Impact', sans-serif;letter-spacing: 1px;font-size: 2rem;color: #00aea0;margin-top: -2.8rem;}
+.season-one .stage-4 h3{font-family: 'Impact', sans-serif;letter-spacing: 1px;font-size: 2.5rem;color: #ba202e;margin-top: -1rem;}
+.season-one .stage-4 h2{color: #ba202e;font-size: 5.5rem;}
+.season-one .stage-4 h4{font-family: 'Impact', sans-serif;letter-spacing: 1px;font-size: 2rem;color: #ba202e;margin-top: -2.8rem;}
+.season-one .show-mobile{display: none;}
+.season-one h2 br{display: none;}
+
+/************** Heist Work ***************/ 
+.heist-work{background-color: #06051e;  position: relative;padding-bottom: 200px;margin-bottom: -7vw;margin-top: -1vw;}
+.heist-work .container-fluid{padding-left: 150px;padding-right: 150px;padding-top: 100px;padding-bottom: 100px;}
+.heist-work h2{color: #bd1e2d;font-family: 'Impact', sans-serif;letter-spacing: 1px;font-size: 3.5rem;}
+.heist-work .col-md-12 h2{font-weight: bold;}
+.heist-work .col-md-12 h2{margin-top: 1.5rem;}
+.heist-work p{color: #ffffff;font-size: 1.5rem;width: 70%;}
+.heist-work .col-md-3 .col-md-12 img{max-width: 80%;cursor: pointer;}
+.heist-work .col-md-3{margin-top: 2rem; flex: 0 0 33.333333%; max-width: 33.333333%;}
+.heist-work h3{color: #bd1e2d;font-family: 'Impact', sans-serif;letter-spacing: 1px;font-size: 2.5rem;}
+.heist-work .col-md-12 h3{margin-top: -0.5rem;}
+.heist-work h4{color: #ffffff;font-family: 'Impact', sans-serif;font-size: 2.5rem;}
+.bullet33{position: absolute;width:5%;margin-top: -6rem;z-index: 2;right: 10rem;}
+.flip-box {background-color: transparent;perspective: 500px;height: 435px;}
+.flip-box-inner {position: relative;transition: transform 1s;transform-style: preserve-3d;}
+.flip-box:hover .flip-box-inner {transform: rotateY(180deg);}
+.flip-box-front, .flip-box-back {position: absolute;width: 100%;height: 100%;-webkit-backface-visibility: hidden;backface-visibility: hidden;}
+.flip-box-back {transform: rotateY(180deg);}
+.heist-work .col-md-2, .heist-work .col-md-10, .heist-work .col-md-12{font-size: 1.2rem; color: #ffffff;}
+.stat-box {width: 17px;height: 17px;border: 1px solid #ffffff;}
+.white-box {background: #ffffff;}
+.heist-work .col-md-10{padding-left: unset;}
+.heist-work .col-md-2{padding-right: unset;}
+.heist-work .vertical-middle{margin: 0;position: absolute;top: 50%;-ms-transform: translateY(-50%);transform: translateY(-50%);display: flex;}
+.heist-work .character-stat{padding: 20px 0px;}
+.heist-work .col-md-2{flex: 0 0 20%; max-width: 20%;}
+.heist-work .col-md-10{flex: 0 0 80%; max-width: 80%;}
+.heist-work .modal{justify-content: center;align-items: center;background: rgba(0, 0, 0, 0.7);}
+.heist-work .modal-dialog{height: 100vh;display: flex;}
+.heist-work .modal-content{margin: auto;height: fit-content;}
+.modal-backdrop{opacity:0.7 !important;display: none;}
+.modal-body{background-color: #000000;}
+.heist-work .show-mobile{display: none;}
+.swiper-pagination-bullet-active{background: #bd1e2d!important;}
+.swiper-pagination-bullet{background: #ffffff;}
+.swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction{bottom: unset!important;left: unset!important;width: unset!important;right: 5px;top: 50%;transform: translate3d(0px,-50%,0);display: grid;}
+.swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet{margin: 4px 0!important;}
+.heist-work .clicktoplay{font-size: 2rem;color: #FEFD5E;font-style: italic;}
+.heist-work h2 br{display: none;}
+.heist-work .modal{overflow:hidden;}
+
+/************** Hiroshima ***************/ 
+.hiroshima{place-items: center; display: grid; overflow: hidden; padding: 300px 0px; background-color: #450000;position: relative; z-index: 10;clip-path: polygon(0% 15%, 0% 100%, 100% calc(100% - 5vw), 100% 0%);-webkit-clip-path: polygon(0% 15%, 0% 100%, 100% calc(100% - 5vw), 100% 0%);margin-bottom: -5vw;}
+.hiroshima .container-fluid{padding-left: 150px;padding-right: 150px;}
+.hiroshima-charc{flex: 0 0 33.333333%;max-width: 33.333333%;}
+.hiroshima-part{position: absolute;z-index: 11;padding-left: 150px;}
+.hiroshima-part h2{color: #bd1e2d;font-family: 'Impact', sans-serif;letter-spacing: 1px;font-size: 3.5rem;margin-top: 1.5rem;}
+.hiroshima-part p{color: #ffffff;font-family: 'Impact', sans-serif;letter-spacing: 1px;font-size: 2.5rem;}
+.hiroshima-desc{position: absolute;z-index: 11;color: #ffffff;font-size: 1.5rem;margin-top: -5rem;}
+.hiroshima .container{margin-top: -15rem;}
+.hiroshima-police{position: absolute;z-index: 11;width: 32%;right: -29rem;margin-top: -6rem;}
+.hiroshima h2{color: #ffffff;font-family: 'Impact', sans-serif;letter-spacing: 1px;font-size: 2.5rem;margin-top: 1.5rem;}
+.hiroshima h3{color: #ffffff;font-family: 'Impact', sans-serif;letter-spacing: 1px;font-size: 2.5rem;}
+.hiroshima-police-mobile{display: none;}
+
+/************** Roadmap ***************/ 
+.roadmap{position: relative;background: #06051e;padding: 100px 0px 50px 0px;overflow: hidden;}
+.roadmap h2{color: #bd1e2d;font-family: 'Impact', sans-serif;letter-spacing: 1px;font-size: 3.5rem;margin-top: 1.5rem;padding-top: 100px;}
+.roadmap .jap-word{padding-top: 0px;margin-top: -.5rem;margin-left: -.5rem;padding-bottom: 25px;}
+.roadmap-list {list-style: none;padding: 0;border:1px solid #bd1e2d;transition: all .3s ease;}
+.faqs {border-bottom: 2px solid #bd1e2d;padding: 20px 20px 0px 20px;text-align: left;position: relative;z-index: 1;}
+.faq-heading {position: relative;cursor: pointer;color: #bd1e2d;font-size: 2rem;transition: all 0.5s ease-out;font-family: 'Impact', sans-serif;letter-spacing: 1px;font-size: 2.5rem;}
+.faq-text {opacity: 0; max-height: 0;overflow-y: hidden;transition: all 0.5s ease;}
+.read {color: #ffffff;font-size: 1.5rem;overflow: hidden;}
+.faqs.open .faq-text{opacity: 1;max-height: 1000px;}
+.roadmap .container-fluid{padding-left: 150px;padding-right: 150px;}
+.roadmap .roadmap-arrow{width: 95px;position: absolute;right: 0px;top: 0px;border-left: 1px solid #bd1e2d;}
+.roadmap .faqs.open .roadmap-arrow{display: none;}
+.roadmap .faqs.open p img{width: 100%;margin-left: -3rem;}
+.roadmap .faqs p img{width: 100%;margin-left: -3rem;}
+
+
+/************** Gang Member ***************/ 
+.gang-member{position:relative; z-index: 1;overflow: hidden;background-color: #06051e;}
+.gang-member h2{color: #ffffff;font-family: 'Impact', sans-serif;letter-spacing: 1px;font-size: 3.5rem;margin-bottom: 2rem;padding-top: 200px;padding-bottom: 50px;}
+.gang-member .container-fluid{padding-left: 150px;padding-right: 150px;}
+.gang-member img{width: 100%;display: block;margin-bottom: 2rem;}
+.gang-member h4{font-family: 'Impact', sans-serif;letter-spacing: .5px;font-size: 1.5rem;color: #bd1e2d;}
+.gang-member p{color: #ffffff;font-size: 1rem;}
+
+
+/************** Heist Begin ***************/ 
+.heist-begin{position:relative; z-index: 1;overflow: hidden; height: 100vh;padding: 100px 0px 0px 0px;background-color: #06051e;}
+.heist-begin img{position: absolute;width: 50%;top: 50%;left: 24%;z-index: 1;}
+.heist-begin button{position: absolute;top: 65%; left: 44%; z-index: 2;background: transparent;color: #bd1e2d;border-color: #bd1e2d;font-family: 'Impact', sans-serif;letter-spacing: 1px;font-size: 3rem;border: 5px solid;padding: 0px 15px;}
+.heist-begin button:focus{outline: none;}
+.heist-begin video{width : 100vw;height: 100%;position: relative;top: 0;left: 0;object-fit: cover;} 
+.heist-begin button:hover{color: #ffffff;border-color: #bd1e2d;}
+/******** 768 - 1024 ********/
+  @media (max-width: 1024px) {
+    .hero-banner .video-react.video-react-fluid, .video-react.video-react-16-9, .video-react.video-react-4-3{height: 90vh;}
+    .hero-banner .bullet2{width:10%;right: 5rem;bottom: 5rem;}
+    .bullet1{width:10%;margin-left: 5rem;margin-top: -4rem;}
+    .be-heist h2{font-size: 5rem;margin-top: -1rem;margin-bottom: 1rem;}
+    .be-heist .number-big{font-size: 8rem;top: 6rem;}
+    .be-heist .small-matic{font-size: 6rem;}
+    .be-heist .bullet2{width:10%;margin-left: 12rem;margin-top: -3rem;}
+    .bullet11{width:10%;margin-top: -4rem;}
+    .heist-mint .container-fluid, .heist-work .container-fluid, .roadmap .container-fluid{padding-right: 50px;padding-left: 50px;}
+    .heist-mint .col-md-7 h2, .heist-mint .col-md-7 h3{font-size: 2rem;}
+    .heist-mint .col-md-7 p{font-size: 1rem;}
+    .heist-mint .col-md-7 h3 img{width: 25px;}
+    .heist-mint .col-md-5 img{max-width: 80%;}
+    .heist-mint .col-md-7{margin-left: -3rem;}
+    .heist-mint .connect-metamask, .heist-mint .view-opensea, .heist-mint .mint-more{font-size: 2rem;}
+    .heist-mint .mint-quantity{font-size: 2rem;width: 160px;}
+    .bullet3{width:10%;margin-top: -4rem;right: 10rem;}
+    .heist-work p br{display: none;}
+    .heist-work p{font-size: 1.3rem;}
+    .heist-work .col-md-3{flex: 0 0 50%; max-width: 50%;}
+    .bullet33{margin-top: -4rem;width:10%;}
+    .heist-begin img{width: 60%;left: 20%;}
+    .heist-work .col-md-3 .col-md-6 img{max-width: 100%;}
+    .heist-work h3{font-size: 1.5rem;}
+    .heist-work h4{font-size: 1.8rem;}
+    .heist-mint .col-md-7{max-width: 60%;}
+    .heist-gang{background-attachment: unset;}
+    .heist-begin{height: unset;}
+    .flip-box{height: 265px;}
+    .referral-part{position: unset;}
+    .heist-work .col-md-3 .col-md-12 img{max-width: 100%;}
+    .heist-work h2{font-size: 3rem;}
+    .heist-work .col-md-2, .heist-work .col-md-10, .heist-work .col-md-12{font-size: 1rem;}
+    .heist-work p{width: 100%;}
+    .heist-work h2 br{display: block;}
+    .sound-btn{right: 0.5rem;}
+    .opensea-icon{right: 2rem;}
+    .heist-work .clicktoplay {font-size: 1.5rem;}
+    .hiroshima{clip-path:polygon(0% 8%, 0% 100%, 100% calc(100% - 5vw), 100% 0%);-webkit-clip-path:polygon(0% 8%, 0% 100%, 100% calc(100% - 5vw), 100% 0%);padding: 365px 0px;}
+    .heist-work{margin-bottom: -9vw;}
+    .hiroshima-part{padding-left: 0;flex:0 0 100%;max-width: 100%;text-align: center;}
+    .hiroshima-police{padding-right: 0px;margin-top: 33rem;right: 0rem;width: 20%;}
+    .hiroshima-desc{font-size: 1.2rem;margin-top: 6rem;}
+    .logo{width: 40%;margin-top: 2rem;}
+    .hiroshima .container .col-md-6{flex: 0 0 100%;max-width: 100%;}
+    .be-heist .container{padding: 80px 100px;}
+    .be-heist{padding:100px 0px;}
+    .connect-wallet{display: none;}
+    .hero-banner .video-react .video-react-video{object-fit: contain;}
+    .video-react .video-react-big-play-button{height: 3.5em;width: 3.5em;}
+    .video-react .video-react-big-play-button.video-react-big-play-button-center{margin-left: -1.5em;}
+    .hiroshima-desc{text-align: center;width: 100%;}
+    .hiroshima .col-md-6{margin-left: unset;}
+    .small-human-group br{display: none;}
+    .heist-begin button{left: 38%;font-size: 2.5rem;}
+    .referral{width: 80%;}
+    .heist-mint .mint-quantity{width: 65%}
+    .mint-btn{width: 30%;padding:5px 0px;}
+    .heist-mint{padding: 100px 0px 200px 0px;}
+    .icon-part{right: 1rem;}
+    .season-one .container-fluid{padding-left: 50px;padding-right: 50px;}
+    .season-one h2{font-size: 3rem;margin-bottom: 1rem;}
+    .season-one .stage-1 h3, .season-one .stage-2 h3, .season-one .stage-3 h3, .season-one .stage-4 h3{font-size: 1.5rem;margin-top: -.7rem;}
+    .season-one .stage-1 h2, .season-one .stage-2 h2, .season-one .stage-3 h2, .season-one .stage-4 h2{font-size: 4.5rem;}
+    .season-one .stage-1 h4, .season-one .stage-2 h4, .season-one .stage-3 h4, .season-one .stage-4 h4{font-size: 1.5rem;margin-top: -1.6rem;}
+    .season-one p{font-size: .8rem;}
+    .season-one{padding: 100px 0px;}
+    .season-stage img{max-width: 100%;}
+    .gang-member .container-fluid{padding-left: 50px;padding-right: 50px;}
+    .gang-member h4{font-size: 1.2rem;}
+    .gang-member p{font-size:.9rem;}
+    .roadmap{padding: 50px 0px 50px 0px;}
+    .roadmap h2{font-size: 3rem;}
+    .faq-heading{font-size: 2rem;}
+    .roadmap .roadmap-arrow{width: 85px;}
+    .read{font-size: 1.2rem;}
+    .roadmap .col-md-6, .roadmap .col-md-4{flex: 0 0 100%; max-width: 100%;}
+    .roadmap .faqs.open p img{margin-left: 0;}
+    .roadmap .faqs p img{margin-left: 0;}
+    .roadmap .col-md-4{padding: 10px 150px;}
+    .heist-mint .success-section img{width: 60px;}
+    }
+
+/******** 320 - 767 ********/
+  @media (max-width: 767px) {
+    .video-react .video-react-big-play-button{height: 3em;width: 3em;}
+    .logo{margin-top: 20px;margin-left: 0px;width: 50%}
+    .hero-banner .video-react.video-react-fluid, .video-react.video-react-16-9, .video-react.video-react-4-3{height: 65vh;}
+    .hero-banner video{height: 65vh!important;}
+    .opensea-icon, .discord-icon, .twitter-icon{height: 40px;right: 1rem;}
+    .icon-part{top: 2rem;}
+    .heist-work .clicktoplay{display: none;}
+    .connect-wallet{display: none;}
+    .hero-banner .bullet2{width: 10%;}
+    .be-heist{padding: 50px 10px 50px 10px;}
+    .be-heist .container{padding: 50px 60px;}
+    .bullet1{width: 10%;margin-top: -2rem;}
+    .be-heist h2{font-size: 3rem;-webkit-text-stroke-width:1px;}
+    .be-heist .number-big{font-size: 4rem;}
+    .be-heist .small-matic{font-size: 3rem;}
+    .be-heist .bullet2{margin-left: 8rem;margin-top: -4rem;width: 10%;}
+    .bullet11{width: 10%;margin-top: -3rem;}
+    .heist-mint .col-md-5 img{max-width: 200px;top: unset;margin-top: 1rem;}
+    .heist-mint .col-md-5{text-align: center;}
+    .heist-mint .container-fluid, .heist-work .container-fluid{padding-right: 15px;padding-left: 15px;}
+    .heist-mint .col-md-7{margin-top: 2rem;top: unset;left: unset;text-align: center;}
+    .heist-mint .connect-metamask, .heist-mint .mint-quantity, .heist-mint .view-opensea, .heist-mint .mint-more{text-align: center; font-size: 1.5rem;}
+    .heist-mint .view-opensea{margin-right: 0px;}
+    .heist-mint .view-opensea, .heist-mint .mint-more{width: 45%;padding: 5px 0px;}
+    .heist-mint .col-md-7{margin-left: unset;}
+    .bullet3{width: 10%;margin-top: -2rem;right: 5rem;}
+    .heist-work .container-fluid{padding-top: 50px;padding-bottom: 50px}
+    .heist-work h2{font-size: 2rem;}
+    .heist-work p{font-size: 1rem;}
+    .heist-work .col-md-3 .col-md-6 img{max-width: 100%;}
+    .heist-work .col-md-3 .col-md-6{text-align: center;}
+    .bullet33{width: 10%;margin-top: -3rem;right: 6rem;}
+    .heist-begin img{width: 80%;left: 9%;}
+    .heist-mint .col-md-7{max-width: 100%;}
+    .flip-box{height: 370px;text-align: center;}
+    .heist-work h3{font-size: 1.8rem;}
+    .heist-mint .col-md-5 img{max-width: 170px;}
+    .img-out{margin: 0em auto 0;min-height: 18em;}
+    .referral-part{position: unset;top: unset;left: unset;}
+    .referral{width: 70%;margin-top: 5px;}
+    .heist-work .col-md-3 .col-md-12 img{max-width: 100%;}
+    .heist-work .character-stat{padding: unset;}
+    .heist-work .col-md-2, .heist-work .col-md-10, .heist-work .col-md-12{font-size: 1.2rem;}
+    .heist-work .col-md-2{flex: 0 0 20%; max-width: 20%;}
+    .heist-work .col-md-10{flex: 0 0 80%; max-width: 80%;}
+    .stat-box{width: 15px;height: 15px;}
+    .heist-work .col-md-3{flex: 0 0 100%; max-width: 100%;}
+    .heist-work .col-md-12 br{display: none;}
+    .heist-work .hide-mobile{display: none;}
+    .heist-work .show-mobile{display: block;}
+    .heist-work .col-md-12 {text-align: left;}
+    .be-heist .container p{font-size: 1rem;text-align: left;}
+    /* .sound-btn{display: none;} */
+    .swiper-button-prev:after, .swiper-container-rtl .swiper-button-next:after, .swiper-button-next:after, .swiper-container-rtl .swiper-button-prev:after{color: #bd1e2d;}
+    .swiper-button-next, .swiper-button-prev{top: 25%;margin-top: 1rem;width: 50px;height: 50px;background: transparent;border: 3px solid #bd1e2d;border-radius: 50%;  transition: background-color .2s ease, color .2s ease;}
+    .swiper-button-next:after, .swiper-button-prev:after{font-size: 1.7rem;font-weight: bold;}
+    .swiper-button-prev, .swiper-container-rtl .swiper-button-next{left: 1px;}
+    .swiper-button-next, .swiper-container-rtl .swiper-button-prev{right: 1px;}
+    .hiroshima{clip-path:polygon(0% 5%, 0% 100%, 100% calc(100% - 5vw), 100% 0%);-webkit-clip-path:polygon(0% 5%, 0% 100%, 100% calc(100% - 5vw), 100% 0%);padding:350px 0px;}
+    .hiroshima-part{padding-left: unset;text-align: center;}
+    .hiroshima-charc{max-width: 80%; margin-top: -5rem;padding: 0px 20px;}
+    .hiroshima-part h2, .hiroshima h2{font-size: 2.5rem;}
+    .hiroshima-part p{font-size: 1.5rem;}
+    .hiroshima-desc{font-size: 1rem;padding: 0px 30px 0px 0px;margin-top: 0px;width: 100%;}
+    .hiroshima-police{width: 35%;padding-right: unset;margin-top: unset;bottom: -31rem;right: 1rem;}
+    .heist-work{margin-bottom: -10vw;}
+    /*.hiroshima-police-mobile{display: block;width: 80%;}*/
+    .heist-begin button{position: absolute;top: 65%;border: 2px solid;font-size: 1.5rem;left: 35%;}
+    .small-human{width: 12px;}
+   /* .small-human-group{text-align: left;}*/
+    .heist-mint .mint-quantity{width: 65%;}
+    .heist-mint .mint-btn{width: 25%;padding:5px 0px;}
+    .season-one .season-stage{width: unset;padding: 0px 40px;}
+    .season-one{padding: 50px 0px;}
+    .season-one .container-fluid{padding-left: 15px;padding-right: 15px;}
+    .season-one h2{font-size: 2rem;margin-bottom: 0;}
+    .season-one .stage-1 h2, .season-one .stage-2 h2, .season-one .stage-3 h2, .season-one .stage-4 h2{font-size: 7rem;}
+    .season-one .stage-1 h4, .season-one .stage-2 h4, .season-one .stage-3 h4, .season-one .stage-4 h4{font-size: 2.4rem;margin-top: -.7rem;}
+    .season-one .stage-1 h3, .season-one .stage-2 h3, .season-one .stage-3 h3, .season-one .stage-4 h3{font-size: 2.7rem;}
+    .season-one p{font-size: 1rem;}
+    .season-one .hide-mobile{display: none;}
+    .season-one .show-mobile{display: block;}
+    .gang-member .container-fluid{padding-left: 15px;padding-right: 15px;}
+    .gang-member h2{font-size: 2rem;padding-top: 100px;padding-bottom: 0px;}
+    .roadmap .container-fluid{padding-left: 15px;padding-right: 15px;}
+    .roadmap{padding: 0px 0px 50px 0px;}
+    .roadmap h2{font-size: 2rem;}
+    .faq-heading{font-size: 1.7rem;}
+    .roadmap .roadmap-arrow{width: 80px;}
+    .read{font-size: 1rem;}
+    .roadmap .col-md-4{padding: 10px 10px;}
+    .heist-mint .success-section br{display: block;}
+    .heist-mint .success-section img{width: 50px;}
+    .heist-mint .view-opensea, .heist-mint .mint-more{width: 70%;}
+    .view-opensea img{position: relative;left: -.7rem;}
+  }   
+
+  /******** 320 - 374 ********/
+  @media (min-width: 320px) and (max-width: 374px) {
+    .be-heist h2{font-size: 2.5rem;}
+    .be-heist .number-big{font-size: 3.5rem;}
+    .be-heist .small-matic{font-size: 2.5rem;}
+    .heist-mint .col-md-5 img{max-width: 150px;}
+    .heist-work h2{font-size: 1.8rem;}
+    .heist-work h3{font-size: 1.5rem;}
+    .heist-work h4{font-size: 1.5rem;}
+    .flip-box{height: 365px;}
+    .img-out{margin: 0em auto 0;min-height: 16em;}
+    .heist-work .col-md-3 .col-md-12 img{max-width: 100%;}
+    .heist-work .character-stat{padding: unset;}
+    .heist-work .col-md-2, .heist-work .col-md-10, .heist-work .col-md-12{font-size: 1rem;}
+    .heist-work .col-md-2{flex: 0 0 20%; max-width: 20%;}
+    .heist-work .col-md-10{flex: 0 0 80%; max-width: 80%;}
+    .stat-box{width: 15px;height: 15px;}
+    .heist-work .col-md-3{flex: 0 0 100%; max-width: 100%;}
+    .be-heist .bullet2{margin-left: 7rem;}
+    .heist-work{margin-bottom: -15vw;}
+    .hiroshima{clip-path:polygon(0% 5%, 0% 100%, 100% calc(100% - 5vw), 100% 0%);-webkit-clip-path:polygon(0% 5%, 0% 100%, 100% calc(100% - 5vw), 100% 0%);padding: 400px 0px;}
+    .hiroshima-part{padding-left: unset;text-align: center;padding: 0px 25px;}
+    .hiroshima-charc{max-width: 100%;margin-top: -5rem;}
+    .hiroshima-part h2, .hiroshima h2{font-size: 2.5rem;}
+    .hiroshima-part p{font-size: 1.5rem;}
+    .hiroshima-desc{font-size: 1rem;padding: 0px 30px 0px 0px;margin-top: 15px;}
+    .hiroshima-police{width: 40%;padding-right: unset;margin-top: unset;bottom: -35rem;right: 1rem;}
+    .be-heist .container{padding: 30px;}
+    .be-heist .container p{text-align: left;font-size: 0.8rem;}
+    .heist-begin button{left: 32%;}
+    .heist-mint .view-opensea{margin-right: 0px;}
+    .season-one h2{font-size: 1.8rem;}
+    .season-one .stage-1 h3, .season-one .stage-2 h3, .season-one .stage-3 h3, .season-one .stage-4 h3{font-size: 2.2rem;}
+    .season-one .stage-1 h2, .season-one .stage-2 h2, .season-one .stage-3 h2, .season-one .stage-4 h2{font-size: 6.5rem;}
+    .season-one .stage-1 h4, .season-one .stage-2 h4, .season-one .stage-3 h4, .season-one .stage-4 h4{font-size: 2.2rem;}
+    .season-one p{font-size: 1rem;}
+    .gang-member h4{font-size: 1.1rem;}
+    .gang-member p {font-size:.9rem;}
+    .faq-heading{font-size: 1.1rem;}
+    .roadmap .roadmap-arrow{display: none;}
+    .heist-mint .success-section img{width: 50px;}
+    .heist-mint .view-opensea, .heist-mint .mint-more{width: 100%;}
+    .view-opensea img{position: relative;left: -.7rem;}
+  }
+     
+    /******** 911 - 1024 ********/
+  @media (min-width: 911px) and (max-width: 1024px) {
+      .heist-work .col-md-3 .col-md-6 img{max-width: 85%;}
+      .hiroshima-desc{margin-top: 5rem;}
+      .hiroshima-part{margin-top: -6rem;}
+      .hiroshima-police{right: 1rem;margin-top: 38rem;width: 18%;}
+      .heist-begin button{left: 40%;}
+  }
+
+    /******** 1025 - 1440 ********/
+  @media (min-width: 1025px) and (max-width: 1440px) {
+    .logo{width: 30%;}
+    .hero-banner .bullet2{right: 10rem;}
+    .bullet1{margin-left: 10rem;}
+    .be-heist h2{font-size: 5rem;}
+    .be-heist .number-big{font-size: 10rem;}
+    .be-heist .small-matic{font-size: 8rem;}
+    .heist-mint .col-md-7 h2{font-size: 2.2rem;}
+    .heist-mint .col-md-7 p{font-size: 1.3rem;}
+    .heist-mint .col-md-7 h3{font-size: 2.5rem;}
+    .heist-mint .col-md-7 h3 img{width: 25px;}
+    .be-heist .container p{font-size: 1.3rem;}
+    .heist-mint .connect-metamask, .heist-mint .mint-quantity,.heist-mint .view-opensea, .heist-mint .mint-more{font-size: 2.5rem;}
+    .heist-mint{padding:100px 0px 200px 0px;}
+    .bullet3{margin-top: -4rem;right: 10rem;}
+    .heist-mint .container-fluid, .heist-work .container-fluid, .roadmap .container-fluid{padding-right: 100px;padding-left: 100px;}
+    .heist-work .col-md-3{flex: 0 0 33%; max-width: 33%;}
+    .heist-work h2{font-size: 2.5rem;}
+    .heist-work p{font-size: 1.5rem;}
+    .heist-work p br{display: none;}
+    .heist-work h3{font-size: 1.5rem;}
+    .heist-work h4{font-size: 1.5rem;}
+    .heist-work p{font-size: 1rem;}
+    .bullet33{margin-top: -3rem;}
+    .flip-box{height: 260px;}
+    .heist-begin{height: unset;}
+    .heist-gang{background-attachment: unset;}
+    .heist-mint .col-md-5 img{max-width: 80%;}
+    .referral-part{position: unset;}
+    .heist-work .col-md-3 .col-md-12 img{max-width: 100%;}
+    .heist-work .col-md-2, .heist-work .col-md-10, .heist-work .col-md-12{font-size: 1rem;}
+    /* .heist-work .col-md-12 br{display: none;} */
+    .stat-box{width: 17px;height: 17px;}
+    .heist-work .col-md-2{flex: 0 0 20%; max-width: 20%;}
+    .heist-work .col-md-10{flex: 0 0 80%; max-width: 80%;}
+    .heist-work p{width: 90%;}
+    .hiroshima-charc{width: 50%;max-width: 30%;}
+    .hiroshima-part{padding-left: 0px;text-align: center;margin-top: -7rem;}
+    .hiroshima{clip-path:polygon(0% 8%, 0% 100%, 100% calc(100% - 5vw), 100% 0%);-webkit-clip-path:polygon(0% 8%, 0% 100%, 100% calc(100% - 5vw), 100% 0%);}
+    .hiroshima-police{padding-right: 50px;margin-top: 31rem;right: 1rem;width: 20%;}
+    .hiroshima-part h2, .hiroshima h2{font-size: 2.5rem;}
+    .hiroshima-part p{font-size: 1.5rem;}
+    .hiroshima-desc{font-size: 1.2rem;padding: 0px 40px;margin-top: 7rem;}
+    .hero-banner .video-react .video-react-video{object-fit: cover;height: unset;}
+    /* .hero-banner .video-react.video-react-fluid, .video-react.video-react-16-9, .video-react.video-react-4-3{height: 100vh;} */
+    .hero-banner video{height: unset;}
+    .hiroshima .col-md-6{flex: 0 0 80%; max-width: 80%;}
+    .heist-begin button{left: 40%;font-size: 2.8rem;}
+    .referral{width: 80%;}
+    .heist-mint .mint-quantity{width: 65%;}
+    .mint-btn{width: 25%;padding:5px 0px;}
+    .season-one .container-fluid{padding-right: 100px;padding-left: 100px;}
+    .season-one{padding: 100px 0px;}
+    .season-one h2{font-size: 2.5rem;}
+    .season-one .stage-1 h3, .season-one .stage-2 h3, .season-one .stage-3 h3, .season-one .stage-4 h3{font-size: 2rem;}
+    .season-one .stage-1 h2, .season-one .stage-2 h2, .season-one .stage-3 h2, .season-one .stage-4 h2{font-size: 5rem;}
+    .season-one .stage-1 h4, .season-one .stage-2 h4, .season-one .stage-3 h4, .season-one .stage-4 h4{font-size: 2rem;}
+    .season-one p{font-size: 1rem;}
+    .season-stage img{max-width: 100%;}
+    .gang-member .container-fluid{padding-right: 100px;padding-left: 100px;}
+    .gang-member h4{font-size: 1.2rem;}
+    .faq-heading{font-size: 2rem;}
+    .roadmap h2{font-size: 2.5rem;}
+    .roadmap{padding: 20px 0px 50px 0px;}
+    .roadmap .roadmap-arrow{width: 85px;}
+    .read{font-size: 1.2rem;}
+    .roadmap .col-md-2{flex: 0 0 0%;max-width: 0%;display: none;}
+    .roadmap .col-md-4{flex: 0 0 45%; max-width: 45%;}
+    .roadmap .faqs.open p img{margin-left: 0;}
+    .roadmap .faqs p img{margin-left: 0;}
+    .roadmap .col-md-6{flex: 0 0 55%;max-width: 55%;}
+    .heist-mint .success-section img{width: 60px;}
+  }
+
+      /******** 1025 - 1150 ********/
+  @media (min-width: 1025px) and (max-width: 1150px) {
+    .flip-box{height: 180px;}
+
+  }
+
+  /******** 1151 - 1275 ********/
+  @media (min-width: 1151px) and (max-width: 1275px) {
+    .flip-box{height: 200px;}
+    .hiroshima-police{margin-top: 13rem;width: 30%;padding-right: unset;}
+    .hiroshima-part{padding-left: 100px;text-align: unset;}
+    .hiroshima .container .col-md-6{flex: 0 0 80%; max-width: 80%;padding-left:100px; }
+    .hiroshima-desc{padding: unset;}
+    .hiroshima-desc{padding: unset;width: 50%;}
+    .hiroshima .container{max-width: unset;}
+    .heist-begin button{left: 42%;font-size: 2.8rem;}
+  }
+
+  /******** 1276 - 1440 ********/
+  @media (min-width: 1276px) and (max-width: 1440px) {
+    .flip-box{height: 240px;}
+    .hiroshima-police{margin-top: 10rem;width: 31%;padding-right: unset;right: 0rem;padding-left: 30px;}
+    .hiroshima-part{padding-left: 100px;text-align: unset;}
+    .hiroshima .container .col-md-6{flex: 0 0 80%; max-width: 80%;margin-top: 1rem;padding-left: 100px;}
+    .hiroshima-desc{padding: unset;width: 50%;}
+    .hiroshima .container{max-width: unset;}
+    /* .hiroshima{height: 90vh;} */
+    .heist-begin button{left: 43%;font-size: 2.8rem;}
+    .referral{width: 500px;}
+    .heist-mint .mint-quantity{width: 390px;}
+    .mint-btn{width: unset;padding:5px 35px;}
+  }
+
+      /******** 1441 - 1650 ********/
+  @media (min-width: 1441px) and (max-width: 1650px) {
+    .heist-work h3{font-size: 1.8rem;}
+    .heist-work h4{font-size: 1.5rem;}
+    .heist-work p{font-size: 1rem;}
+    .heist-mint .col-md-5 img{max-width: 85%;}
+    .flip-box{height: 280px;}
+    .heist-begin{height: unset;}
+    .heist-work h2{font-size: 3.5rem;}
+    .heist-work .col-md-2, .heist-work .col-md-10, .heist-work .col-md-12{font-size: 1.2rem;}
+    .heist-work .col-md-2{flex: 0 0 20%; max-width: 20%;}
+    .heist-work .col-md-10{flex: 0 0 80%; max-width: 80%;}
+    .hiroshima-police{width: 27%;margin-top: -3rem;right: -6rem;}
+    .hiroshima-desc{font-size: 1.2rem;padding: 0px 40px;}
+    .heist-work{margin-bottom: -8vw;}
+    .hiroshima-charc{max-width: 25%;}
+    .hiroshima .col-md-6{margin-left: 4rem;}
+    .heist-begin button{left: 43%;font-size: 3rem;}
+    .heist-mint .col-md-7 h2{font-size: 3rem;}
+    .heist-mint{padding: 100px 0px 200px 0px;}
+    .season-stage img{max-width: 90%;}
+    .gang-member h4{font-size: 1.4rem;}
+    .faq-heading{font-size: 2rem;}
+    .roadmap .col-md-2{display: none;}
+    .roadmap .col-md-6{flex: 0 0 55%;max-width: 55%;}
+    .roadmap .col-md-4{flex :0 0 45%;max-width: 45%;}
+    .roadmap .faqs.open p img{margin-left: -1rem;}
+    .roadmap .faqs p img{margin-left: -1rem;}
+    .roadmap .roadmap-arrow{width: 85px;}
+    .heist-mint .success-section img{width: 65px;}
+    .read{font-size: 1.2rem;}
+  }
+
+        /******** 1560 - 1650 ********/
+        @media (min-width: 1560px) and (max-width: 1650px) {
+          .hiroshima-police{right: -9rem;}
+        }
+
+        /******** 1651 - 1820********/
+         @media (min-width: 1651px) and (max-width: 1820px) {
+          .hiroshima-police{right: -18rem;width: 28%;margin-top: -6rem;}
+         }
+
+                /******** 1651 - 1820********/
+                @media (min-width: 1651px) and (max-width: 1750px) {
+                  .hiroshima-desc{margin-left: 5rem;}
+                }
+
+           /******** 320 - 480 ********/
+  @media (min-width: 320px) and (max-width: 450px) {
+    .season-one h2 br{display: block;}
+}
+
+       /******** 390 - 449 ********/
+  @media (min-width: 390px) and (max-width: 449px) {
+    .hiroshima-police{bottom: -31rem;width: 35%;}
+    .hiroshima-charc{max-width: 85%;padding: 25px;}
+    .hiroshima-desc{top: 3rem;margin-top: unset;}
+    .hiroshima-part h2, .hiroshima h2{margin-top: -1rem;}
+    .hiroshima-part{padding: 0px 20px;}
+    .gang-member h4{font-size: 1.3rem;}
+    .gang-member p{font-size: 1rem;}
+  }
+
+         /******** 400 - 449 ********/
+         @media (min-width: 400px) and (max-width: 449px) {
+          .hiroshima-desc{top: 6rem;margin-top: unset;}
+          .hiroshima-police{bottom: -32rem;width: 35%;}
+         }
+     /******** 430 - 767 ********/
+  @media (min-width: 430px) and (max-width: 767px) {
+    .heist-work h2{font-size: 2.5rem;}
+    .heist-work h3{font-size: 1.5rem;}
+    .heist-work .col-md-2, .heist-work .col-md-10, .heist-work .col-md-12{font-size: 0.6rem;}
+    .stat-box{width: 12px;height: 12px;}
+  }
+
+
+  /******** 450 - 480 ********/
+  @media (min-width: 450px) and (max-width: 480px) {
+    .flip-box{height: 340px;}
+    .hiroshima-police{bottom: -32.5rem;}
+    .hiroshima-charc{width: 60%;}
+    .hiroshima-desc{margin-top: 10px;}
+    .gang-member h4{font-size: 1.4rem;}
+    .gang-member p{font-size: 1rem;}
+  }
+
+   /******** 481 - 510 ********/
+  @media (min-width: 481px) and (max-width: 510px) {
+    .flip-box{height: 370px;}
+    .heist-work .col-md-2, .heist-work .col-md-10, .heist-work .col-md-12{font-size: 0.8rem;}
+    .stat-box{width: 15px;height: 15px;}
+    .hiroshima-police{bottom: -30.5rem;}
+    .hiroshima-charc{width: 60%;}
+    .hiroshima-desc{margin-top: 30px;}
+    .heist-begin button{left: 34%;font-size: 2rem;}
+    .gang-member h4{font-size: 1.5rem;}
+    .gang-member p{font-size: 1rem;}
+  }
+
+  /******** 511 - 540 ********/
+  @media (min-width: 511px) and (max-width: 540px) {
+    .flip-box{height: 400px;}
+    .heist-work .col-md-2, .heist-work .col-md-10, .heist-work .col-md-12{font-size: 0.8rem;}
+    .stat-box{width: 15px;height: 15px;}
+    .hiroshima-police{bottom: -32.5rem;width: 35%;}
+    .hiroshima-charc{width: 55%;}
+    .hiroshima-desc{margin-top: 30px;}
+    .heist-begin button{left: 34%;font-size: 2rem;}
+    .gang-member h4{font-size: 1.5rem;}
+    .gang-member p{font-size: 1rem;}
+    .roadmap .col-md-4{padding: 10px 50px;}
+  }
+
+  /******** 541 - 570 ********/
+  @media (min-width: 541px) and (max-width: 570px) {
+    .flip-box{height: 430px;}
+    .heist-work .col-md-2, .heist-work .col-md-10, .heist-work .col-md-12{font-size: 0.9rem;}
+    .stat-box{width: 15px;height: 15px;}
+    .hiroshima-police{bottom: -30.5rem;width: 33%;}
+    .hiroshima-charc{width: 55%;}
+    .hiroshima-desc{margin-top: 30px;}
+    .heist-begin button{left: 35%;font-size: 2rem;}
+    .gang-member h4{font-size: 1.5rem;}
+    .gang-member p{font-size: 1rem;}
+    .roadmap .col-md-4{padding: 10px 50px;}
+  }
+
+  /******** 571 - 600 ********/
+  @media (min-width: 571px) and (max-width: 600px) {
+    .flip-box{height: 445px;}
+    .heist-work .col-md-2, .heist-work .col-md-10, .heist-work .col-md-12{font-size: 1rem;}
+    .stat-box{width: 15px;height: 15px;}
+    .hiroshima-police{bottom: -31rem;width: 30%;}
+    .hiroshima-charc{width: 50%;}
+    .hiroshima-desc{margin-top: 30px;}
+    .heist-begin button{left: 36%;font-size: 2rem;}
+    .gang-member h4{font-size: 1.5rem;}
+    .gang-member p{font-size: 1rem;}
+    .roadmap .col-md-4{padding: 10px 50px;}
+  }
+
+  /******** 601 - 630 ********/
+  @media (min-width: 601px) and (max-width: 630px) {
+    .flip-box{height: 465px;}
+    .heist-work .col-md-2, .heist-work .col-md-10, .heist-work .col-md-12{font-size: 1rem;}
+    .stat-box{width: 15px;height: 15px;}
+    .hiroshima-police{bottom: -30rem;width: 30%;}
+    .hiroshima-charc{width: 50%;}
+    .hiroshima-desc{margin-top: 30px;}
+    .heist-begin button{left: 37%;font-size: 2rem;}
+    .gang-member h4{font-size: 1.4rem;}
+    .gang-member p{font-size: 1rem;}
+    .roadmap .col-md-4{padding: 10px 50px;}
+  }
+
+  /******** 631 - 660 ********/
+  @media (min-width: 631px) and (max-width: 660px) {
+    .flip-box{height: 490px;}
+    .heist-work .col-md-2, .heist-work .col-md-10, .heist-work .col-md-12{font-size: 1.1rem;}
+    .stat-box{width: 15px;height: 15px;}
+    .hiroshima-police{bottom: -30rem;width: 28%;}
+    .hiroshima-charc{width: 46%;}
+    .hiroshima-desc{margin-top: 30px;}
+    .heist-begin button{left: 38%;font-size: 2rem;}
+    .gang-member h4{font-size: 1.5rem;}
+    .gang-member p{font-size: 1rem;}
+    .roadmap .col-md-4{padding: 10px 50px;}
+  }
+
+  /******** 661 - 690 ********/
+  @media (min-width: 661px) and (max-width: 690px) {
+    .flip-box{height: 515px;}
+    .heist-work .col-md-2, .heist-work .col-md-10, .heist-work .col-md-12{font-size: 1.2rem;}
+    .stat-box{width: 15px;height: 15px;}
+    .hiroshima-police{bottom: -28rem;width: 28%;}
+    .hiroshima-charc{width: 46%;}
+    .hiroshima-desc{margin-top: 30px;}
+    .heist-begin button{left: 39%;font-size: 2rem;}
+    .gang-member h4{font-size: 1.5rem;}
+    .gang-member p{font-size: 1rem;}
+    .roadmap .col-md-4{padding: 10px 70px;}
+  }
+
+  /******** 691 - 720 ********/
+  @media (min-width: 691px) and (max-width: 720px) {
+    .flip-box{height: 550px;}
+    .heist-work .col-md-2, .heist-work .col-md-10, .heist-work .col-md-12{font-size: 1.2rem;}
+    .stat-box{width: 15px;height: 15px;}
+    .hiroshima-police{bottom: -29rem;width: 28%;}
+    .hiroshima-charc{width: 43%;}
+    .hiroshima-desc{margin-top: 30px;}
+    .heist-begin button{left: 40%;font-size: 2rem;}
+    .gang-member h4{font-size: 1.5rem;}
+    .gang-member p{font-size: 1rem;}
+    .roadmap .col-md-4{padding: 10px 70px;}
+  }
+
+  /******** 721 - 750 ********/
+  @media (min-width: 721px) and (max-width: 750px) {
+    .flip-box{height: 570px;}
+    .heist-work .col-md-2, .heist-work .col-md-10, .heist-work .col-md-12{font-size: 1.3rem;}
+    .stat-box{width: 15px;height: 15px;}
+    .hiroshima-police{bottom: -29rem;width: 27%;}
+    .hiroshima-charc{width: 41%;}
+    .hiroshima-desc{margin-top: 35px;}
+    .heist-begin button{left: 41%;font-size: 2rem;}
+    .gang-member h4{font-size: 1.5rem;}
+    .gang-member p{font-size: 1rem;}
+    .roadmap .col-md-4{padding: 10px 70px;}
+  }
+
+  /******** 751 - 767 ********/
+  @media (min-width: 751px) and (max-width: 767px) {
+    .flip-box{height: 600px;}
+    .heist-work .col-md-2, .heist-work .col-md-10, .heist-work .col-md-12{font-size: 1.3rem;}
+    .stat-box{width: 15px;height: 15px;}
+    .hiroshima-police{bottom: -28rem;width: 27%;}
+    .hiroshima-charc{width: 40%;}
+    .hiroshima-desc{margin-top: 35px;}
+    .heist-begin button{left: 41%;font-size: 2rem;}
+    .gang-member h4{font-size: 1.5rem;}
+    .gang-member p{font-size: 1rem;}
+    .roadmap .col-md-4{padding: 10px 70px;}
+  }
+
+    /******** 375 - 660 ********/
+    @media (min-width: 375px) and (max-width: 660px) {
+      .faq-heading{font-size: 1.2rem;}
+      .roadmap .roadmap-arrow{display: none;}
+    }
+
+  /******** 800 - 910 ********/
+  @media (min-width: 800px) and (max-width: 910px) {
+    /* .hiroshima-desc{margin-top: 8rem;}
+    .hiroshima-police{margin-top: 35rem;width: 18%;} */
+  }
+ 
+
+@media only screen 
+  and (max-width: 400px) 
+  and (max-height: 700px)  
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 1.5) {
+        /* .hiroshima-desc{margin-top: 35px;}
+        .hiroshima-police{bottom: -27rem;width: 30%;} */
+}
+
+@media only screen 
+  and (min-width: 1530px)
+  and (max-width: 1536px)
+  and (min-height: 940px)
+  and (max-height: 980px)  
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 1.5) {
+        /* .hiroshima-police{margin-top: 5rem;}
+        .hiroshima .col-md-6{margin-left: 2rem;} */
+}
+
+@media only screen 
+  and (min-width: 1275px)
+  and (max-width: 1440px)
+  and (min-height: 650px)
+  and (max-height: 800px)  
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 1.5) {
+        /* .hiroshima-police{margin-top: 15rem;width: 30%;}
+        .hiroshima-charc{max-width: 25%;} */
+}
+
+
+ @media only screen 
+  and (min-width: 1024px) 
+  and (max-width: 1024px)
+  and (min-height: 1250px)
+  and (max-height: 1400px)  
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 1.5) {
+      /*.hiroshima{height: 85vh!important;}*/
+      /* .hiroshima-police{margin-top: 44rem;width: 35%;}
+      .hiroshima-desc{margin-top: -6rem;padding: 0px 30px;} */
+      .hero-banner .video-react.video-react-fluid, .video-react.video-react-16-9, .video-react.video-react-4-3{height: unset;}
+      .hero-banner .video-react .video-react-video{object-fit: contain;height: unset;}
+}
+
+/* Landscape */
+@media only screen 
+  and (max-width: 1366px) 
+  and (max-height: 1024px)  
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 1.5) {
+      /* .hiroshima{height: 65vh;} */
+}
+
+/******** Ipad Air ********/
+ @media only screen 
+    and (min-width: 750px)
+   and (max-width: 820px)
+   and (min-height: 1100px)  
+  and (max-height: 1180px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 1.5) {
+   /* .hiroshima{height: 75vh;} */
+   /* .hiroshima-desc{margin-top: 4rem;}
+   .hiroshima-police{margin-top: 37rem;width: 30%;} */
+}
+
+/* Landscape */
+@media only screen 
+  and (max-width: 1180px) 
+  and (max-height: 820px)
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 1.5) {
+    /* .hiroshima{height: 70vh;} */
+}
+
+
+/******** 2000 ********/
+@media (min-width: 2000px){
+  .hiroshima-police{right: -46rem;}
+}

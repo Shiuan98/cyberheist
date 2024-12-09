@@ -1,0 +1,19 @@
+
+
+@font-face {
+    font-family: 'Helvetica Regular';
+    src: url('../fonts/helvetica-webfont.woff2') format('woff2'),
+         url('../fonts/helvetica-webfont.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Impact';
+    src: url('../fonts/impact.woff2') format('woff2'),
+         url('../fonts/impact.woff') format('woff');
+}
+
+body {
+  font-family: 'Helvetica Regular';
+  font-weight: normal;
+}
+
